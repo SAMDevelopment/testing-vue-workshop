@@ -11,3 +11,5 @@ Slides available at https://slides.com/eddyerburgh/testing-vue-workshop
 [Tasks, microtasks, queues and schedules](https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/)
 
 https://github.com/posva/vuex-mock-store
+
+https://devexpress.github.io/testcafe/
