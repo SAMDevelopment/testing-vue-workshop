@@ -1,4 +1,4 @@
-function capitalize(value) {
+function capitalize (value) {
   if (value === undefined) {
     return ''
   }
@@ -6,7 +6,11 @@ function capitalize(value) {
 }
 
 describe('capitalize', () => {
-  test('returns empty string if input is undefined')
+  test('returns empty string if input is undefined', () => {
+    expect(capitalize()).toBe('')
+  })
 
-  test('returns string with first letter as capital letter')
+  test('returns string with first letter as capital letter', () => {
+    expect(capitalize('sam')).toBe('Sam')
+  })
 })
