@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  web:
+  node:
     image: kkarczmarczyk/node-yarn
     working_dir: /opt/app
     volumes:
